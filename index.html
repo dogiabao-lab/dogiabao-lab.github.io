@@ -178,73 +178,168 @@
                                 <!-- Bài 1 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 1: Máy tính & Thiết bị</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Nhận diện phần cứng và tổ chức tệp tin.</p>
-                                        <p><strong>Tóm tắt:</strong> Thực hành thao tác tạo/sao chép/di chuyển tệp trên File Explorer.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Tóm tắt thực hành quản lý tệp:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Khởi tạo thư mục:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Mở <strong>File Explorer</strong> (<code>Windows + E</code>).</li>
+                                                    <li>Điều hướng đến ổ đĩa dữ liệu hoặc <code>Documents</code>.</li>
+                                                    <li>Tạo thư mục: <code>ThucHanh_DoGiaBao_25021646</code>.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Thiết lập cấu trúc:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Truy cập thư mục vừa tạo.</li>
+                                                    <li>Tạo <code>Text Document</code> tên <code>GhiChu.txt</code>, đổi thành <code>GhiChuQuanTrong.txt</code>.</li>
+                                                    <li>Tạo thư mục con tên <code>TaiLieu</code>.</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Điều hướng dữ liệu:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><strong>Sao chép:</strong> Copy <code>GhiChuQuanTrong.txt</code> vào <code>TaiLieu</code>.</li>
+                                                    <li><strong>Di chuyển:</strong> Tạo <code>DiChuyen.txt</code>, cut và paste vào <code>TaiLieu</code>.</li>
+                                                    <li><strong>Xóa tệp:</strong> Xóa <code>GhiChuQuanTrong.txt</code> trong thư mục <code>TaiLieu</code>.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap1.docx')">
-                                        📄 BaiTap1.docx
-                                    </button>
                                 </fieldset>
 
                                 <!-- Bài 2 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 2: Khai thác dữ liệu</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Tìm kiếm tài liệu học thuật.</p>
-                                        <p><strong>Tóm tắt:</strong> Tìm kiếm về LLMs trong phát hiện gian lận ngân hàng.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Tóm tắt Khai thác dữ liệu & Đánh giá:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Tìm kiếm học thuật:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><strong>Nguồn:</strong> 5 loại (Google Scholar, IEEE, ScienceDirect, sách, báo cáo).</li>
+                                                    <li><strong>Từ khóa:</strong> <em>Large Language Models in Banking, LLMs for fraud detection...</em></li>
+                                                    <li><strong>Cú pháp nâng cao:</strong> <code>"Large Language Models" AND "Banking fraud"</code>, <code>filetype:pdf</code>, <code>site:</code>.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Đánh giá nguồn (Tiêu biểu/12 tài liệu):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><strong>FinBERT (2020):</strong> Mô hình kinh điển, trích dẫn lớn. <em>(Tuyệt đối)</em></li>
+                                                    <li><strong>Reinforcement Learning LLMs (1/2026):</strong> Đột phá giải thích lý do gian lận. <em>(Rất cao)</em></li>
+                                                    <li><strong>FinChain-BERT:</strong> Nhận diện sâu thuật ngữ tài chính mập mờ. <em>(Rất cao)</em></li>
+                                                    <li><strong>ESMA Report (6/2024):</strong> Đánh giá rủi ro pháp lý, đạo đức. <em>(Rất cao)</em></li>
+                                                    <li><strong>Emburse Guide (2026):</strong> Có case-study thực tế nhưng mang tính thương mại. <em>(Trung bình)</em></li>
+                                                </ul>
+                                            </li>
+                                        </ol>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap2.pdf')">
-                                        📊 BaiTap2.pdf
-                                    </button>
                                 </fieldset>
 
                                 <!-- Bài 3 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 3: Trí tuệ nhân tạo (AI)</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Làm chủ các công cụ AI.</p>
-                                        <p><strong>Tóm tắt:</strong> Phân tích các tác vụ học tập và thực hành viết prompt C.R.E.A.T.E.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Thực hành & Phân tích Prompt:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Tác vụ 1: Tóm tắt tài liệu</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><em>Cơ bản:</em> Nội dung chung chung, dễ mất sắc thái.</li>
+                                                    <li><em>Nâng cao:</em> Dùng <code>Role-prompting</code> & <code>Chain-of-Thought</code> tạo tóm tắt sắc bén, nổi bật số liệu và ý nghĩa thực tiễn.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Tác vụ 2: Giải thích khái niệm</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><em>Cơ bản:</em> Định nghĩa khô khan, giống Wikipedia.</li>
+                                                    <li><em>Nâng cao:</em> Kết hợp <code>Few-shot</code> & giới hạn từ ngữ giúp AI tạo ra ẩn dụ trực quan, lôi cuốn.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Tác vụ 3: Tạo câu hỏi ôn tập</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><em>Cơ bản:</em> Câu hỏi học thuộc lòng ở bậc thấp.</li>
+                                                    <li><em>Nâng cao:</em> Áp dụng <code>Negative Constraints</code> & <code>Case-study</code> ép AI tạo câu hỏi đánh giá tư duy phản biện.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <p style="margin-top: 5px; margin-bottom: 0; font-size: 12px;">💡 <strong>Tổng kết:</strong> Prompt nâng cao (có ràng buộc, đóng vai, tư duy từng bước) tạo ra sự khác biệt nhảy vọt về chất lượng học thuật.</p>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap3.pdf')">
-                                        🌐 BaiTap3.pdf
-                                    </button>
                                 </fieldset>
 
                                 <!-- Bài 4 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 4: Hợp tác số</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Làm việc nhóm trực tuyến.</p>
-                                        <p><strong>Tóm tắt:</strong> Trải nghiệm dùng Trello, Google Docs và quản lý xung đột nhóm.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Minh chứng phối hợp trực tuyến:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Quản lý dự án (Trello):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Tự cập nhật tiến độ, kéo thả thẻ (To-do ➔ Doing ➔ Done) và đặt deadline.</li>
+                                                    <li>Chuyển các trao đổi quan trọng từ nhóm chat lên bình luận (comment) của thẻ.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Soạn thảo cộng tác (Docs):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Làm việc trên file chung, đánh giá chéo bằng tính năng Thêm nhận xét (Comment).</li>
+                                                    <li>Chuyển sang chế độ Đề xuất (Suggesting) để tránh vô tình xóa nhầm dữ liệu của nhau.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Lưu trữ (Drive) & Giao tiếp (Zalo):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><strong>Drive:</strong> Tạo thư mục con "Tài liệu của Gia Bảo", đổi tên file chuẩn: <code>[Chủ đề]_[Tác giả] [Năm]</code>.</li>
+                                                    <li><strong>Zalo:</strong> Giải quyết trôi tin nhắn bằng tính năng Ghim (Pin message) và tạo tin nhắn tổng hợp.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap4.pdf')">
-                                        🖼️ BaiTap4.pdf
-                                    </button>
                                 </fieldset>
 
-                                <!-- Bài 5 -->
+                               <!-- Bài 5 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 5: Sáng tạo nội dung số</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Sáng tạo nội dung với AI.</p>
-                                        <p><strong>Tóm tắt:</strong> Viết blog về Thành phố thông minh sử dụng Gemini, DALL-E, Canva.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Quy trình sáng tạo với AI:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Văn bản (Google Gemini):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><em>Prompt:</em> Đóng vai chuyên gia quy hoạch đô thị, viết dàn ý & đoạn mở đầu bài blog "Thành phố thông minh".</li>
+                                                    <li><em>Tối ưu:</em> Giữ lại dàn ý khoa học, thay thế số liệu giả định của AI bằng dữ liệu thực tế từ LHQ.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Hình ảnh (DALL-E):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Tạo hình ảnh minh họa cho các khu đô thị bền vững, ứng dụng cảm biến IoT.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Thiết kế (Canva Magic Design):</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Sử dụng AI để tự động phối màu, bố cục ấn phẩm trực quan cho bài blog.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <p style="margin-top: 5px; margin-bottom: 0; font-size: 12px;">💡 <strong>Tổng kết:</strong> AI không làm thay hoàn toàn, nhưng là "trợ lý" đắc lực giúp định hình ý tưởng và thiết kế nhanh chóng.</p>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap5.pdf')">
-                                        🎞️ BaiTap5.pdf
-                                    </button>
                                 </fieldset>
+
 
                                 <!-- Bài 6 -->
                                 <fieldset class="project-card">
                                     <legend>Bài 6: An toàn & Liêm chính</legend>
-                                    <div class="sunken-panel">
-                                        <p><strong>Mục tiêu:</strong> Sử dụng AI có trách nhiệm.</p>
-                                        <p><strong>Tóm tắt:</strong> Nghiên cứu chính sách học thuật và thực hành trích dẫn.</p>
+                                    <div class="sunken-panel" style="overflow-y: auto; max-height: 180px;">
+                                        <p style="margin-top: 0; margin-bottom: 5px;"><strong>Nguyên tắc sử dụng AI có trách nhiệm:</strong></p>
+                                        <ol style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
+                                            <li style="margin-bottom: 5px;"><strong>Nghiên cứu chính sách:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li>Chỉ coi AI là công cụ hỗ trợ (tương tự máy tính bỏ túi), yêu cầu minh bạch và trích dẫn rõ ràng.</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-bottom: 5px;"><strong>Bộ 6 nguyên tắc vàng:</strong>
+                                                <ul style="padding-left: 15px; margin-top: 2px;">
+                                                    <li><strong>Xác thực (Fact-check):</strong> Đối chiếu số liệu với Google Scholar/Tạp chí khoa học.</li>
+                                                    <li><strong>Minh bạch:</strong> Công khai công cụ và bước sử dụng với giảng viên.</li>
+                                                    <li><strong>Không phụ thuộc:</strong> Tự viết bản nháp (Draft 1) trước khi nhờ AI góp ý.</li>
+                                                    <li><strong>Bảo mật:</strong> Tuyệt đối không đưa dữ liệu cá nhân hoặc code nội bộ lên AI công cộng.</li>
+                                                    <li><strong>Bản quyền:</strong> Không dùng AI để lách luật hoặc gỡ bỏ watermark bản quyền.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                        <p style="margin-top: 5px; margin-bottom: 0; font-size: 12px;">💡 <strong>Tổng kết:</strong> Sử dụng AI không phải là "đi tắt", mà là một kỹ năng cần tư duy liêm chính để đảm bảo sự phát triển bền vững của bản thân.</p>
                                     </div>
-                                    <button class="btn-download" onclick="alert('Mở tệp: BaiTap6.pdf')">
-                                        📝 BaiTap6.pdf
-                                    </button>
                                 </fieldset>
                             </div>
                         </div>
